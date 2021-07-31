@@ -26,7 +26,7 @@ Installation
 #. Run ``cd .docker``
 #. Run ``docker-compose up -d`` or ``./up.sh`` 
 #. Run ``docker-compose exec local-apache bash`` or ``./bash.sh`` 
-    #. Run ``composer install``
+#. Run ``composer install`` in bash (``root@xxxxxxxxx:/var/www/html# <here>``)
 #. Open http://localhost
 #. Follow the system instructions
 
