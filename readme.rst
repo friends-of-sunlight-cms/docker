@@ -12,9 +12,11 @@ Requirements
 Environment
 ***********
 
-- Apache
-- PHP 
-- latest MariaDB
+- Apache/2.4.38 (Debian)
+- PHP 8.0.9 
+- MariaDB (latest)
+- Adminer (latest)
+- Composer (latest)
 
 Installation
 ************
@@ -22,8 +24,21 @@ Installation
 #. Download this repository 
 #. Copy the folder ``.docker`` and its contents to the root directory 
 #. Run ``cd .docker``
-#. Run ``docker-compose up -d``
+#. Run ``docker-compose up -d`` or ``./up.sh`` 
 #. Run ``docker-compose exec local-apache bash`` or ``./bash.sh`` 
     #. Run ``composer install``
 #. Open http://localhost
 #. Follow the system instructions
+
+How to run in localhost
+***********************
+- Website - http://localhost (port: ``80``)
+- Adminer - http://localhost:8080 (port: ``8080``) 
+
+Database connection
+-------------------
+
+- Server: ``db``
+- User: ``root``
+- Password: ``root``
+- Database: ``created during installation or manually``
