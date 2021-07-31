@@ -31,10 +31,5 @@ RUN a2dissite 000-default && a2enmod rewrite \
 
 # Download Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-		
-COPY files /
-		
-WORKDIR /var/www/html
 
-# Run composer	
-RUN composer install
+COPY files /
