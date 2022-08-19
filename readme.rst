@@ -6,6 +6,7 @@ Dockerization of the environment for Sunlight CMS 8
 
 Requirements
 ************
+
 - `Docker <https://docs.docker.com/get-docker/>`_
 - `Sunlight CMS 8.x <https://github.com/sunlight-cms/sunlight-cms>`_
 
