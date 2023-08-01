@@ -14,7 +14,7 @@ Environment
 ***********
 
 - Apache/2.4.38 (Debian)
-- PHP 8.0.9 
+- PHP 8.2 
 - MariaDB (latest)
 - Adminer (latest)
 - Composer (latest)
@@ -25,7 +25,7 @@ Installation
 #. Download this repository 
 #. Copy the folder ``.docker`` and its contents to the root directory 
 #. Run ``cd .docker``
-#. Run ``docker-compose up -d`` or ``./up.sh`` 
+#. Run ``docker-compose build && docker-compose up`` or ``./up.sh`` 
 #. Run ``docker-compose exec local-apache bash`` or ``./bash.sh`` 
 #. Run ``composer install`` in bash (``root@xxxxxxxxx:/var/www/html# <here>``)
 #. Open http://localhost
